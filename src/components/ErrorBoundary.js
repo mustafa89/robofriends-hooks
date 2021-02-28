@@ -6,7 +6,7 @@ class ErrorBoundary extends React.Component {
         this.state = {
             hasError: false
         }
-    };
+    }
 
     componentDidCatch(error, info) {
         this.setState({hasError: true})
